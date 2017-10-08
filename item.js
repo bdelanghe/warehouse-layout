@@ -1,20 +1,8 @@
-var items = [];
-var skus = [];
 
-var binTypes = [];
-var bins [];
-
-var shelves [];
-var shelfType [];
-var shelfRules [];
-
-var racks [];
-var locations [];
-
+const stuff = [];
 
 function Item(sku, binType) {
   this.sku = sku;
-//  this.skuClass = regx sku;
   this.binType = binType;
   this.kanbanHeight = binType.height;
 }
@@ -26,14 +14,12 @@ function BinType(id, height, width, depth) {
   this.depth = depth;
 }
 
-funtion ShelfType(length, width, depth, type, mfgNumber) {
-  // this.id = id;
-  // this.mfgNumber = mfgNumber;
-  // this.shelfCapLbs = shelfCapLbs;
-  this.height = height;
+function ShelfType(length, width, depth) {
+  // this.id = id
+  // this.mfgNumber = mfgNumber
+  // this.shelfCapLbs = shelfCapLbs
   this.width = width;
   this.depth = depth;
-  this.deck = deck;
 }
 
-function Location()
+stuff.push(Item, BinType, ShelfType);
