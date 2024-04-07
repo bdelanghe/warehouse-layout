@@ -23,7 +23,7 @@
   "homepage": "https://github.com/bdelanghe/warehouse-layout#readme",
   "devDependencies": {
     "detect-eslint-config": "^0.5.7",
-    "eslint": "^6.0.0",
+    "eslint": "^9.0.0",
     "eslint-config-airbnb": "^16.0.0",
     "eslint-config-airbnb-base": "^12.0.2",
     "eslint-plugin-import": "^2.7.0",
